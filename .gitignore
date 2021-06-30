@@ -3,7 +3,17 @@ FridgeLightService/obj
 FridgeLightService/bin
 FridgeLightService/.vs
 
-#unit tests
+#unit tests service
 FridgeLightService.Tests/obj
 FridgeLightService.Tests/bin
 FridgeLightService.Tests/.vs
+
+#web app
+FridgeLightWebApp/obj
+FridgeLightWebApp/bin
+FridgeLightWebApp/.vs
+
+#unit tests web app
+FridgeLightWebApp.Tests/obj
+FridgeLightWebApp.Tests/bin
+FridgeLightWebApp.Tests/.vs

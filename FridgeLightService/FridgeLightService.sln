@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeLightService", "Fridg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeLightService.Tests", "..\FridgeLightService.Tests\FridgeLightService.Tests.csproj", "{4BAE961A-6CD2-4A6F-B43A-6711E9FFEA2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeLightWebApp", "..\FridgeLightWebApp\FridgeLightWebApp.csproj", "{6EF0AE3F-8237-40EB-8AB3-7A7894CFFFC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeLightWebApp.Tests", "..\FridgeLightWebApp.Tests\FridgeLightWebApp.Tests.csproj", "{66FF14FD-A02F-418C-9684-82C87E624A27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{4BAE961A-6CD2-4A6F-B43A-6711E9FFEA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BAE961A-6CD2-4A6F-B43A-6711E9FFEA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BAE961A-6CD2-4A6F-B43A-6711E9FFEA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF0AE3F-8237-40EB-8AB3-7A7894CFFFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF0AE3F-8237-40EB-8AB3-7A7894CFFFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF0AE3F-8237-40EB-8AB3-7A7894CFFFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF0AE3F-8237-40EB-8AB3-7A7894CFFFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FF14FD-A02F-418C-9684-82C87E624A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FF14FD-A02F-418C-9684-82C87E624A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FF14FD-A02F-418C-9684-82C87E624A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FF14FD-A02F-418C-9684-82C87E624A27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
