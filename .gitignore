@@ -1,4 +1,9 @@
-
+#service
 FridgeLightService/obj
 FridgeLightService/bin
 FridgeLightService/.vs
+
+#unit tests
+FridgeLightService.Tests/obj
+FridgeLightService.Tests/bin
+FridgeLightService.Tests/.vs
