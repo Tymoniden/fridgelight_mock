@@ -1,0 +1,10 @@
+[Unit]
+Description=FridgeLight REST API Service
+
+[Service]
+WorkingDirectory=/var/lib/FridgeLightService
+ExecStart=/var/lib/FridgeLightService/FridgeLightService
+
+[Install]
+Wants=network-online.target
+After=network-online.target
