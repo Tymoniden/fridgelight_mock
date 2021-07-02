@@ -21,7 +21,7 @@ namespace FridgeLightService
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder
-                        .UseUrls("http://*:5000;https://localhost:5001")
+                        .UseUrls("http://*:5000;https://*:5001")
                         .UseStartup<Startup>();
                 });
     }
