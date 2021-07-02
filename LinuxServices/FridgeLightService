@@ -2,8 +2,8 @@
 Description=FridgeLight REST API Service
 
 [Service]
-WorkingDirectory=/var/lib/FridgeLightService
-ExecStart=/var/lib/FridgeLightService/FridgeLightService
+WorkingDirectory=/usr/local/bin/FridgeLightService/FridgeLightService/bin/Release/net5.0/linux-x64/publish
+ExecStart=FridgeLightService
 
 [Install]
 Wants=network-online.target
