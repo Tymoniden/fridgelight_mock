@@ -31,7 +31,7 @@ namespace FridgeLightService.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]+"_"
+                Summary = Summaries[rng.Next(Summaries.Length)]+"_Hasi"
             })
             .ToArray();
         }
