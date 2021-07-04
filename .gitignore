@@ -1,3 +1,6 @@
+#root folder
+.vs
+
 #service
 FridgeLightService/obj
 FridgeLightService/bin
